@@ -60,4 +60,4 @@ Keywords: occupational therapy · cognitive assessment · AI-assisted screening 
 
 📍 Taipei, Taiwan · 🌐 [mattye.dev](https://mattye.dev) · ✉️ [chingweiye@mattye.dev](mailto:chingweiye@mattye.dev) · 🎓 School of Occupational Therapy, College of Medicine, NTU
 
-如果這裡的東西幫你省下一些時間，可以到 [mattye.dev](https://mattye.dev) 點右下角的 ☕ 請我喝杯咖啡。
+如果這裡的東西幫你省下一些時間，可以 [請我喝杯咖啡 ☕](https://mattye.dev/sponsor)——台幣或美金都可以，金額自訂。
