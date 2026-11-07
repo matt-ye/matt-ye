@@ -6,6 +6,8 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { pathToFileURL } from 'node:url';
 
 const SITE = 'https://mattye.dev';
+// mattye.dev 對 GitHub Actions 的 IP 回 403；同一份內容從 Pages 網址讀。連結仍指向 mattye.dev。
+const SOURCE = 'https://personal-website-1m7.pages.dev';
 const POSTS = 3;
 // 公開但不適合放在 GitHub 首頁的文章
 const EXCLUDE = new Set([`${SITE}/writing/In-Memory-of-Miguel-Li/`]);
@@ -66,7 +68,7 @@ export function replaceBlock(readme, name, body) {
 }
 
 async function get(path) {
-  const res = await fetch(`${SITE}${path}`, { headers: { 'User-Agent': 'matt-ye-readme-updater' } });
+  const res = await fetch(`${SOURCE}${path}`, { headers: { 'User-Agent': 'matt-ye-readme-updater' } });
   if (!res.ok) throw new Error(`${path} HTTP ${res.status}`);
   return res.text();
 }
