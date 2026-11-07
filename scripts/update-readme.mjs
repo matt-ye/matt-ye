@@ -7,6 +7,8 @@ import { pathToFileURL } from 'node:url';
 
 const SITE = 'https://mattye.dev';
 const POSTS = 3;
+// 公開但不適合放在 GitHub 首頁的文章
+const EXCLUDE = new Set([`${SITE}/writing/In-Memory-of-Miguel-Li/`]);
 
 export function parseStats(md) {
   const read = (label) => {
@@ -33,7 +35,13 @@ export function parsePosts(xml, limit = POSTS) {
     return { title: tag('title'), link: tag('link'), date: new Date(tag('pubDate')) };
   });
   const valid = posts
-    .filter((p) => p.title && p.link.startsWith(`${SITE}/writing/`) && !Number.isNaN(p.date.getTime()))
+    .filter(
+      (p) =>
+        p.title &&
+        p.link.startsWith(`${SITE}/writing/`) &&
+        !EXCLUDE.has(p.link) &&
+        !Number.isNaN(p.date.getTime())
+    )
     .sort((a, b) => b.date - a.date)
     .slice(0, limit);
   if (!valid.length) throw new Error('rss.xml 解析不出任何文章');

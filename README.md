@@ -10,6 +10,7 @@ Keywords: occupational therapy · cognitive assessment · AI-assisted screening 
 - 🧠 **研究** — 以機器學習分析手寫動作，分類高齡者認知退化程度，嘗試開發社區認知篩檢系統
 - 🎤 **教學與教練** — 3MT 簡報冠軍；系統化訓練簡報邏輯、表達與投影片設計，陪學生打競賽拿下 ATCC 全國冠軍、Falling Walls Lab
 - 🛠️ **工具開發** — 自己的研究與教學流程卡住的地方，就寫一個工具把它打通
+- 🕸️ **創作** — 黃金畫布工作室（[Tela Aurea Lab](https://telaaurealab.com/)）創辦人：出於對捕夢網手工藝的熱愛，理解走線數學規則後開發網頁設計工具
 
 [![Website](https://img.shields.io/badge/Website-mattye.dev-1d4ed8?style=flat-square&logo=astro&logoColor=white)](https://mattye.dev)
 [![ORCID](https://img.shields.io/badge/ORCID-0009--0001--6085--8303-a6ce39?style=flat-square&logo=orcid&logoColor=white)](https://orcid.org/0009-0001-6085-8303)
@@ -66,8 +67,8 @@ Keywords: occupational therapy · cognitive assessment · AI-assisted screening 
 
 <!-- AUTO:writing -->
 - [又一個 SEO 工具。差別是每條規則都附出處](https://mattye.dev/writing/seo-rules-with-sources/) · 2026-08-19
-- [懷念 Miguel — 李維晏老師](https://mattye.dev/writing/In-Memory-of-Miguel-Li/) · 2026-06-30
 - [把簡報當成一種「職能」：硬核簡報專欄的起點](https://mattye.dev/writing/hardcore-presentation-00-roadmap/) · 2026-06-25
+- [天時、地利、人和：現代管理者的 3R 實踐指南（發刊詞）](https://mattye.dev/writing/management-3r-01-manifesto/) · 2026-06-25
 <!-- /AUTO:writing -->
 
 ---

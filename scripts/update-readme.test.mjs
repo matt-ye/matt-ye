@@ -17,6 +17,7 @@ test('parsePosts sorts newest first, unescapes titles, and keeps only /writing/ 
     item('舊文', 'https://mattye.dev/writing/old/', 'Mon, 01 Jun 2026 00:00:00 GMT') +
     item('A &amp; B', 'https://mattye.dev/writing/new/', 'Wed, 19 Aug 2026 00:00:00 GMT') +
     item('專欄', 'https://mattye.dev/projects/marketing/x/', 'Thu, 20 Aug 2026 00:00:00 GMT') +
+    item('排除', 'https://mattye.dev/writing/In-Memory-of-Miguel-Li/', 'Thu, 20 Aug 2026 00:00:00 GMT') +
     item('外站', 'https://evil.example/writing/x', 'Thu, 20 Aug 2026 00:00:00 GMT');
   const posts = parsePosts(xml);
   assert.deepEqual(posts.map((p) => p.title), ['A & B', '舊文']);
