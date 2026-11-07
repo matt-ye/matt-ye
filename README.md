@@ -1,12 +1,14 @@
 # 葉淨維 Ching-Wei (Matt) Ye 🧠
 
-**職能治療師 · 臺大職能治療學研究所博士候選人 — 把研究證據變成可用的工具與可教的方法。**
-**Occupational therapist · PhD candidate at National Taiwan University — turning evidence into usable tools and teachable methods.**
+**職能治療師 · 簡報教練 · AI 認知科學研究 · 臺大職能治療學系博士候選人**
+**Occupational therapist · presentation coach · AI & cognitive science researcher · PhD candidate at National Taiwan University**
+
+連結研究、新創與真實世界：把研究證據變成可用的工具與可教的方法。
 
 Keywords: occupational therapy · cognitive assessment · AI-assisted screening · evidence-based practice · presentation coaching · research communication · Astro · Python · R
 
-- 🏥 **臨床與研究** — 職能治療背景，研究高齡者書寫與認知功能的 AI 輔助分類
-- 🎤 **教學與教練** — 2020 年起 150+ 場演講／工作坊；3MT 簡報冠軍；陪學生打競賽拿下 ATCC 全國冠軍、Falling Walls Lab
+- 🧠 **研究** — 以機器學習分析手寫動作，分類高齡者認知退化程度，嘗試開發社區認知篩檢系統
+- 🎤 **教學與教練** — 3MT 簡報冠軍；系統化訓練簡報邏輯、表達與投影片設計，陪學生打競賽拿下 ATCC 全國冠軍、Falling Walls Lab
 - 🛠️ **工具開發** — 自己的研究與教學流程卡住的地方，就寫一個工具把它打通
 
 [![Website](https://img.shields.io/badge/Website-mattye.dev-1d4ed8?style=flat-square&logo=astro&logoColor=white)](https://mattye.dev)
@@ -23,13 +25,15 @@ Keywords: occupational therapy · cognitive assessment · AI-assisted screening 
 
 - **🧠 認知與臨床評估** — 高齡者書寫與認知測驗的資料處理與分類流程
 - **📚 研究工作流** — 文獻管理搬遷、meta-analysis pipeline、知識庫檢索
-- **🎓 教學與教練工具** — 網站導覽 skill、skill 打包上架流程、簡報與競賽培訓方法論
-- **🌐 內容平台** — 個人網站、腦健康互動工具、線上課程
+- **🎓 教學與教練工具** — 網站導覽 skill、網站可見度檢核 skill、skill 打包上架流程、簡報與競賽培訓方法論
+- **🌐 內容平台** — 個人網站、腦健康互動工具、碩博士獎助資訊、線上課程
 
 ## 工具與作品 ／ Projects
 
 | 專案 | 做什麼 |
 |---|---|
+| 🎓 [**OpenGSA**](https://github.com/matt-ye/opengsa) | 整理臺灣碩博士獎助與權益資訊的開源工具：用甘特圖一次看截止時間，未明資訊導回官方來源 → [opengsa.mattye.dev](https://opengsa.mattye.dev/) |
+| 🔎 [**YAEO**](https://github.com/matt-ye/yaeo) | 檢核網站對搜尋引擎與 AI 引擎可見度的 skill：四層逐條檢核，每條規則都附得出出處，中文網站用中文門檻。 |
 | 🧭 [**Toutour**](https://github.com/matt-ye/Toutour) | 幫任何網站加上聚光燈導覽的 Claude skill——分析版面、訪談開發者、產生並用 Playwright 逐步驗證，避免導覽指到空氣。 |
 | 📦 [**Pack-and-Ship**](https://github.com/matt-ye/Pack-and-Ship) | 把設計好的 skill 快速打包、產生行銷圖文、送上架的一條流程。 |
 | 📖 [**endnote-to-zotero-migration**](https://github.com/matt-ye/endnote-to-zotero-migration) | 把 EndNote library 完整搬到 Zotero：保留 PDF 附件與兩層分組階層。 |
@@ -42,7 +46,9 @@ Keywords: occupational therapy · cognitive assessment · AI-assisted screening 
 
 ## 演講與培訓 ／ Speaking & Coaching
 
-2020 年至今累積 150+ 場演講、工作坊與競賽培訓，主題涵蓋學術簡報、研究溝通、EMI 教學。
+<!-- AUTO:stats -->
+2020 年至今累積 **168** 場演講、工作坊與競賽培訓，**283** 小時講台時數，觸及 **13,681** 人次；主題涵蓋學術簡報、研究溝通、EMI 教學。
+<!-- /AUTO:stats -->
 
 | | |
 |---|---|
@@ -55,6 +61,14 @@ Keywords: occupational therapy · cognitive assessment · AI-assisted screening 
 ## ✍️ 寫作 ／ Writing
 
 在 [mattye.dev/writing](https://mattye.dev/writing) 寫研究新知、創業學習、技術筆記、投資知識與提案訣竅——記錄發展多面向職涯（The Portfolio Life）路上學到的東西。全站中英雙語。
+
+最新文章：
+
+<!-- AUTO:writing -->
+- [又一個 SEO 工具。差別是每條規則都附出處](https://mattye.dev/writing/seo-rules-with-sources/) · 2026-08-19
+- [懷念 Miguel — 李維晏老師](https://mattye.dev/writing/In-Memory-of-Miguel-Li/) · 2026-06-30
+- [把簡報當成一種「職能」：硬核簡報專欄的起點](https://mattye.dev/writing/hardcore-presentation-00-roadmap/) · 2026-06-25
+<!-- /AUTO:writing -->
 
 ---
 
