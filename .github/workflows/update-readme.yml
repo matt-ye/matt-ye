@@ -1,0 +1,34 @@
+# 每天把 README 標記區塊更新成 mattye.dev 的最新數字與文章。沒有變動就不 commit。
+# 只用預設的 GITHUB_TOKEN，讀不到其他 repo，私有專案名稱不可能進 README。
+name: update-readme
+
+on:
+  schedule:
+    - cron: '20 22 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+      - run: node --test scripts/update-readme.test.mjs
+      - run: node scripts/update-readme.mjs
+      - name: Commit if changed
+        run: |
+          git diff --quiet README.md && { echo "沒有變動"; exit 0; }
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898283+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'chore: 自動更新 README 數字與文章'
+          git push
