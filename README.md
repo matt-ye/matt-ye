@@ -48,7 +48,7 @@ Keywords: occupational therapy · cognitive assessment · AI-assisted screening 
 ## 演講與培訓 ／ Speaking & Coaching
 
 <!-- AUTO:stats -->
-2020 年至今累積 **169** 場演講、工作坊與競賽培訓，**284** 小時講台時數，觸及 **13,706** 人次；主題涵蓋學術簡報、研究溝通、EMI 教學。
+2020 年至今累積 **174** 場演講、工作坊與競賽培訓，**288** 小時講台時數，觸及 **13,782** 人次；主題涵蓋學術簡報、研究溝通、EMI 教學。
 <!-- /AUTO:stats -->
 
 | | |
